@@ -23,3 +23,15 @@ window.addEventListener("pointermove", event => {
   glow.style.left = `${event.clientX}px`;
   glow.style.top = `${event.clientY}px`;
 });
+
+document.querySelectorAll(".photo-video").forEach(video => {
+  video.muted = true;
+  video.playsInline = true;
+
+  const playPromise = video.play();
+  if (playPromise) {
+    playPromise.catch(() => {
+      video.controls = true;
+    });
+  }
+});

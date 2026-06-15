@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Missão Técnica | Microsoft Build 2026</title>
+  <meta name="description" content="Relatório interativo da missão técnica ao Microsoft Build 2026, com visões para diretoria e time técnico." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Início">
+      <span class="logo-box">B26</span>
+      <span>
+        <strong>Missão Técnica</strong>
+        <small>Microsoft Build 2026</small>
+      </span>
+    </a>
+
+    <button class="menu-button" id="menuButton" aria-label="Abrir menu">☰</button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#executivo">Diretoria</a>
+      <a href="#tecnico">Time técnico</a>
+      <a href="#jornada">Jornada</a>
+      <a href="#insights">Insights</a>
+      <a href="#acoes">Ações</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="hero-content reveal">
+        <p class="kicker">São Francisco · GitHub · Microsoft Build · Ecossistema de inovação</p>
+        <h1>IA corporativa entrou na fase de governança, custo e valor mensurável.</h1>
+        <p class="hero-lead">
+          Um relatório interativo da missão técnica de Gabriel Baptista, Eduardo e Leandro,
+          estruturado em duas leituras: uma para decisão executiva e outra para aprofundamento técnico.
+        </p>
+        <div class="hero-ctas">
+          <a class="button button-primary" href="#executivo">Apresentar para diretoria</a>
+          <a class="button button-secondary" href="#tecnico">Apresentar para engenharia</a>
+        </div>
+
+        <div class="hero-metrics" aria-label="Destaques">
+          <div>
+            <strong>350+</strong>
+            <span>sensores por carro na F1</span>
+          </div>
+          <div>
+            <strong>18k</strong>
+            <span>canais de monitoramento</span>
+          </div>
+          <div>
+            <strong>1 TB</strong>
+            <span>por carro por final de semana</span>
+          </div>
+          <div>
+            <strong>2</strong>
+            <span>públicos-alvo no relatório</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section opening reveal">
+      <div class="section-heading">
+        <span class="section-number">01</span>
+        <div>
+          <p class="kicker">Leitura geral</p>
+          <h2>O Build 2026 confirmou uma mudança de fase.</h2>
+        </div>
+      </div>
+
+      <div class="split">
+        <div class="big-statement">
+          <p>
+            A pergunta central deixou de ser <em>“o que a IA consegue fazer?”</em>
+            e passou a ser <em>“como operar IA em escala, com governança, previsibilidade e retorno?”</em>
+          </p>
+        </div>
+        <div class="text-stack">
+          <p>
+            A viagem permitiu validar anúncios oficiais, conversar com equipes da Microsoft, GitHub,
+            parceiros, startups e líderes globais de tecnologia, além de observar aplicações práticas de agentes
+            fora do ambiente do evento.
+          </p>
+          <p>
+            Para a Toledo, a principal oportunidade está em transformar esse aprendizado em critérios de decisão
+            para produtos digitais, plataformas de dados, engenharia de software e uso corporativo de agentes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="executivo" class="section executive reveal">
+      <div class="section-heading">
+        <span class="section-number">02</span>
+        <div>
+          <p class="kicker">Público 1</p>
+          <h2>Visão para diretoria</h2>
+          <p class="section-subtitle">
+            Foco em valor de negócio, riscos, prioridades e decisões estratégicas.
+          </p>
+        </div>
+      </div>
+
+      <div class="executive-panel">
+        <div class="panel-main">
+          <h3>Mensagem executiva</h3>
+          <p>
+            A IA está deixando de ser uma iniciativa experimental e passa a compor a infraestrutura corporativa.
+            O diferencial competitivo não estará apenas em adotar modelos mais avançados, mas em aplicar IA a
+            problemas reais, com custo controlado, governança e impacto mensurável.
+          </p>
+        </div>
+        <div class="panel-aside">
+          <span>Conclusão-chave</span>
+          <strong>Valor antes de hype.</strong>
+        </div>
+      </div>
+
+      <div class="cards cards-4">
+        <article class="card">
+          <span class="card-tag">Mercado</span>
+          <h3>IA como infraestrutura</h3>
+          <p>Microsoft, GitHub, startups e líderes globais convergiram para a mesma direção: IA precisa ser operada como plataforma corporativa.</p>
+        </article>
+        <article class="card">
+          <span class="card-tag">Risco</span>
+          <h3>Custo e previsibilidade</h3>
+          <p>O modelo por tokens em operações agênticas exige governança desde o início para evitar surpresas financeiras.</p>
+        </article>
+        <article class="card">
+          <span class="card-tag">Valor</span>
+          <h3>ROI ainda é desafio</h3>
+          <p>Há percepção de produtividade, mas ainda falta transformar “estamos mais rápidos” em indicadores claros de resultado.</p>
+        </article>
+        <article class="card">
+          <span class="card-tag">Toledo</span>
+          <h3>Próximos movimentos</h3>
+          <p>Fabric, RAG corporativo, engenharia com IA, dashboards, QA automatizado e hardware para agentes visuais merecem avaliação estruturada.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="tecnico" class="section technical reveal">
+      <div class="section-heading">
+        <span class="section-number">03</span>
+        <div>
+          <p class="kicker">Público 2</p>
+          <h2>Visão para o time técnico</h2>
+          <p class="section-subtitle">
+            Foco em arquitetura, dados, DevOps, agentes, RAG e produtividade de engenharia.
+          </p>
+        </div>
+      </div>
+
+      <div class="tech-grid">
+        <article class="tech-card">
+          <h3>GitHub Copilot e tokens</h3>
+          <p>O impacto do novo modelo de cobrança deve se concentrar nas requisições agênticas. O uso simples continua associado à assinatura.</p>
+          <ul>
+            <li>Definir limites por perfil.</li>
+            <li>Monitorar consumo por tipo de uso.</li>
+            <li>Relacionar custo a ganho de fluxo e qualidade.</li>
+          </ul>
+        </article>
+
+        <article class="tech-card">
+          <h3>CI/CD e GitHub Actions</h3>
+          <p>O debugger de Actions visto no estande ainda está em testes internos, mas reforça a direção de reduzir atritos em pipelines.</p>
+          <ul>
+            <li>Menor tempo de diagnóstico.</li>
+            <li>Mais observabilidade para workflows.</li>
+            <li>Produtividade além da geração de código.</li>
+          </ul>
+        </article>
+
+        <article class="tech-card">
+          <h3>Azure DevOps + Copilot</h3>
+          <p>Copilot pode apoiar avaliação de Pull Requests, acelerando análise inicial e identificação de problemas.</p>
+          <ul>
+            <li>Não substitui revisão humana.</li>
+            <li>Apoia padrões de engenharia.</li>
+            <li>Ajuda a reduzir retrabalho.</li>
+          </ul>
+        </article>
+
+        <article class="tech-card">
+          <h3>Microsoft IQ e RAG</h3>
+          <p>Interessante para cenários em que nossos RAGs precisam de contexto além das fontes previamente mapeadas.</p>
+          <ul>
+            <li>Orquestra múltiplas fontes.</li>
+            <li>Amplia contexto corporativo.</li>
+            <li>Complementa abordagens atuais.</li>
+          </ul>
+        </article>
+
+        <article class="tech-card">
+          <h3>Horizon e Cosmos DB</h3>
+          <p>Horizon chama atenção por permitir montar RAG dentro da própria plataforma; Cosmos DB traz SDKs e funções para otimização.</p>
+          <ul>
+            <li>Menos integração externa.</li>
+            <li>Busca vetorial e recuperação de contexto.</li>
+            <li>Redução de complexidade operacional.</li>
+          </ul>
+        </article>
+
+        <article class="tech-card">
+          <h3>SQL Server e JSON</h3>
+          <p>Melhorias em colunas JSON ajudam cenários híbridos com dados relacionais e estruturas flexíveis.</p>
+          <ul>
+            <li>Mais performance.</li>
+            <li>Menos necessidade de mover carga para NoSQL.</li>
+            <li>Arquiteturas mais simples.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="jornada" class="section journey reveal">
+      <div class="section-heading">
+        <span class="section-number">04</span>
+        <div>
+          <p class="kicker">Jornada</p>
+          <h2>Da chegada ao último dia</h2>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">Chegada</div>
+          <div class="timeline-content">
+            <h3>GitHub Headquarters</h3>
+            <p>Visita aos quatro andares, reunião com Giulia e Victor Fim, discussão sobre GitHub, CI/CD, complexidade operacional da Vale e novo modelo de cobrança de IA.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">Dia 1</div>
+          <div class="timeline-content">
+            <h3>Keynotes e anúncios estratégicos</h3>
+            <p>Agentes, Autopilots, Foundry, Microsoft IQ, novos modelos, segurança, governança e evolução do GitHub Copilot.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">Dia 2</div>
+          <div class="timeline-content">
+            <h3>Estandes Microsoft e ecossistema</h3>
+            <p>Azure Functions com conectores Microsoft 365, SQL Server com JSON, Azure DevOps com Copilot, Horizon, Cosmos DB, DevExpress, startups e Mercedes F1.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">Dia 2</div>
+          <div class="timeline-content">
+            <h3>Mesa restrita com CTOs</h3>
+            <p>Discussão com líderes globais sobre GitHub Copilot, custo por tokens, governança, previsibilidade e dificuldade de comprovar ROI.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">Último dia</div>
+          <div class="timeline-content">
+            <h3>Ecossistema além do Build</h3>
+            <p>Experiência com Waymo, jantar com Gilvandro Neto da CCR, almoço com Vinícius da Future em San Rose e visita rápida ao campus da Google.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="insights" class="section insights reveal">
+      <div class="section-heading">
+        <span class="section-number">05</span>
+        <div>
+          <p class="kicker">Insights</p>
+          <h2>O que mais chamou atenção</h2>
+        </div>
+      </div>
+
+      <div class="insight-layout">
+        <article class="insight-card large">
+          <h3>Fórmula 1 como referência de operação em tempo real</h3>
+          <p>
+            A conversa com um engenheiro da Mercedes mostrou uma arquitetura de telemetria extrema:
+            sensores, milhares de canais, datacenter local, operação remota na Inglaterra e baixa latência,
+            tudo sob restrição orçamentária. A lição para ambientes industriais é clara: dados em tempo real
+            exigem arquitetura, observabilidade e eficiência operacional.
+          </p>
+        </article>
+        <article class="insight-card">
+          <h3>Waymo</h3>
+          <p>Agentes são viáveis quando entregam valor claro e justificam a complexidade tecnológica.</p>
+        </article>
+        <article class="insight-card">
+          <h3>CTOs globais</h3>
+          <p>As preocupações de Toledo sobre custo, governança e ROI são compartilhadas por grandes empresas.</p>
+        </article>
+        <article class="insight-card">
+          <h3>Humanoides</h3>
+          <p>O mercado pode passar por consolidação, com poucos montadores e várias empresas especializadas em componentes.</p>
+        </article>
+        <article class="insight-card">
+          <h3>Chips e IA</h3>
+          <p>Semicondutores seguem aquecidos, mas já existe preocupação com possível bolha em segmentos do ecossistema.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section photos reveal">
+      <div class="section-heading">
+        <span class="section-number">06</span>
+        <div>
+          <p class="kicker">Galeria</p>
+          <h2>Espaços reservados para fotos</h2>
+          <p class="section-subtitle">
+            Substitua os blocos abaixo por fotos do GitHub HQ, Build, Waymo, Google, estandes e encontros.
+          </p>
+        </div>
+      </div>
+
+      <div class="photo-grid">
+        <div class="photo-placeholder">GitHub HQ</div>
+        <div class="photo-placeholder">Microsoft Build</div>
+        <div class="photo-placeholder">Mercedes F1</div>
+        <div class="photo-placeholder">Waymo</div>
+        <div class="photo-placeholder">Google Campus</div>
+        <div class="photo-placeholder">Parceiros e startups</div>
+      </div>
+    </section>
+
+    <section id="acoes" class="section actions-section reveal">
+      <div class="section-heading">
+        <span class="section-number">07</span>
+        <div>
+          <p class="kicker">Próximos passos</p>
+          <h2>Plano inicial de continuidade</h2>
+        </div>
+      </div>
+
+      <div class="actions-list">
+        <div><span>01</span><p>Agendar nova reunião com GitHub para avaliação e otimização de custos relacionados ao uso da plataforma.</p></div>
+        <div><span>02</span><p>Realizar benchmarking com a CCR sobre Microsoft Fabric e práticas de dados.</p></div>
+        <div><span>03</span><p>Testar ferramentas de reporting e dashboards da DevExpress em cenários reais da Toledo.</p></div>
+        <div><span>04</span><p>Avaliar hardware para interação com agentes visuais recebido durante a viagem.</p></div>
+        <div><span>05</span><p>Executar provas de conceito com novos modelos de IA da Microsoft e modelos menores atuais.</p></div>
+        <div><span>06</span><p>Avaliar plataforma de automação de testes com agentes de IA e comparar com o processo atual.</p></div>
+        <div><span>07</span><p>Definir indicadores para medir produtividade, qualidade, retrabalho, lead time e ROI de IA em engenharia.</p></div>
+      </div>
+    </section>
+
+    <section class="section closing reveal">
+      <div class="closing-card">
+        <p class="kicker">Conclusão</p>
+        <h2>A próxima fase será vencida por quem transformar IA em valor operacional.</h2>
+        <p>
+          A missão técnica reforçou que a tecnologia já demonstrou viabilidade. A partir daqui, a vantagem estará em
+          aplicar IA com clareza de propósito, governança, arquitetura adequada e mensuração de impacto nos produtos,
+          clientes e operações.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Relatório interativo para revisão · Gabriel Baptista, Eduardo e Leandro · Microsoft Build 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
